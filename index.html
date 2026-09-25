@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>English World</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f7fb;
+    color:#222;
+}
+
+header{
+    background:#3157d5;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+nav{
+    background:#203c9b;
+    padding:12px;
+    text-align:center;
+}
+
+nav button{
+    background:white;
+    color:#203c9b;
+    border:none;
+    padding:10px 15px;
+    margin:4px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+nav button:hover{
+    background:#dfe6ff;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:25px;
+}
+
+section{
+    display:none;
+}
+
+section.active{
+    display:block;
+}
+
+.card{
+    background:white;
+    padding:22px;
+    margin:18px 0;
+    border-radius:15px;
+    box-shadow:0 3px 10px #ccc;
+}
+
+.level{
+    padding:20px;
+    margin:15px 0;
+    border-radius:15px;
+    color:white;
+}
+
+.beginner{
+    background:#45a049;
+}
+
+.intermediate{
+    background:#e49b18;
+}
+
+.advanced{
+    background:#c0392b;
+}
+
+.word{
+    background:#fff;
+    color:#222;
+    padding:18px;
+    margin:12px 0;
+    border-radius:12px;
+    box-shadow:0 2px 7px #ccc;
+}
+
+.word h3{
+    color:#3157d5;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.speak{
+    background:#3157d5;
+    color:white;
+}
+
+.quiz-question{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:12px;
+    box-shadow:0 2px 7px #ccc;
+}
+
+.option{
+    display:block;
+    width:100%;
+    text-align:left;
+    margin:7px 0;
+    background:#eef2ff;
+}
+
+.option:hover{
+    background:#d8e0ff;
+}
+
+textarea{
+    width:100%;
+    height:180px;
+    padding:12px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.reading-text{
+    line-height:1.8;
+    font-size:17px;
+}
+
+.question{
+    background:#f0f3ff;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+}
+
+footer{
+    background:#203c9b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌍 English World</h1>
+<p>Learn English • Practice • Improve</p>
+</header>
+
+<nav>
+<button onclick="show('home')">Home</button>
+<button onclick="show('beginner')">Beginner</button>
+<button onclick="show('intermediate')">Intermediate</button>
+<button onclick="show('advanced')">Advanced</button>
+<button onclick="show('reading')">Reading</button>
+<button onclick="show('writing')">Writing</button>
+</nav>
+
+<div class="container">
+
+<!-- HOME -->
+
+<section id="home" class="active">
+
+<div class="card">
+<h2>Welcome to English World! 👋</h2>
+
+<p>
+Welcome to English World, an online English-learning program designed for
+students who want to improve their English step by step. Here you can learn
+new vocabulary, read interesting texts, practice grammar, answer quiz
+questions and improve your writing skills.
+</p>
+
+<p>
+Choose your level and start learning. If you are a beginner, start with
+simple vocabulary and easy texts. If you already know English, try the
+Intermediate or Advanced sections.
+</p>
+
+<h2>Choose your level:</h2>
+
+<div class="level beginner">
+<h2>🟢 Beginner</h2>
+<p>Basic English, everyday vocabulary and simple reading.</p>
+</div>
+
+<div class="level intermediate">
+<h2>🟡 Intermediate</h2>
+<p>More difficult vocabulary, longer texts and grammar practice.</p>
+</div>
+
+<div class="level advanced">
+<h2>🔴 Advanced</h2>
+<p>Academic vocabulary, complex texts and advanced English.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- BEGINNER -->
+
+<section id="beginner">
+
+<h2>🟢 Beginner Level</h2>
+
+<div class="card">
+
+<h2>📖 Reading: My First Day at a New School</h2>
+
+<div class="reading-text">
+
+<p>
+My name is Emma and I am twelve years old. Last month, I moved to a new
+city with my parents. Everything was different for me because I had lived
+in the same small town all my life. I was excited about my new home, but
+I was also a little nervous about starting at a new school.
+</p>
+
+<p>
+On my first morning, I woke up early. My mother prepared breakfast for me
+and helped me find my school bag. I put some books, a notebook, a pencil
+case and a bottle of water into my bag. Then my father drove me to school.
+The school was much bigger than my old school. There were many students
+walking around the building.
+</p>
+
+<p>
+When I entered my classroom, I saw a girl sitting near the window. Her name
+was Anna. She smiled at me and said hello. We started talking about our
+favorite subjects. She liked science and I liked English. Our teacher,
+Mrs. Brown, came into the classroom a few minutes later and welcomed me.
+</p>
+
+<p>
+During the first lesson, we introduced ourselves to the class. At first,
+I felt shy because I did not know anyone. However, the other students were
+friendly and asked me many questions. At lunchtime, Anna showed me the
+school garden. We ate our sandwiches together and talked about music,
+films and our favorite animals.
+</p>
+
+<p>
+At the end of the day, I felt much better. I realized that my new school
+was not as scary as I thought. I had already made a new friend. When I
+went home, I told my parents that I wanted to go back to school the next
+day. It was a very good first day.
+</p>
+
+</div>
+
+<h3>Questions</h3>
+
+<div class="question">1. How old is Emma?</div>
+<div class="question">2. Why did Emma move to a new city?</div>
+<div class="question">3. What did Emma put in her school bag?</div>
+<div class="question">4. Who did Emma meet in the classroom?</div>
+<div class="question">5. What subject does Emma like?</div>
+<div class="question">6. Who is Mrs. Brown?</div>
+<div class="question">7. Where did Anna take Emma at lunchtime?</div>
+<div class="question">8. Why was Emma nervous at first?</div>
+<div class="question">9. What did Emma and Anna talk about?</div>
+<div class="question">10. How did Emma feel at the end of the day?</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>📚 Beginner Vocabulary</h2>
+
+<div id="beginnerWords"></div>
+
+</div>
+
+<h2>📝 Beginner Quiz</h2>
+<div id="beginnerQuiz"></div>
+
+</section>
+
+
+<!-- INTERMEDIATE -->
+
+<section id="intermediate">
+
+<h2>🟡 Intermediate Level</h2>
+
+<div class="card">
+
+<h2>📖 Reading: The Importance of Learning New Skills</h2>
+
+<div class="reading-text">
+
+<p>
+Learning new skills has become an important part of modern life. In the
+past, people often learned one profession and continued doing the same
+job for many years. Today, however, the world is changing quickly.
+Technology is developing, new jobs are appearing and many traditional
+jobs are changing. Because of this, people need to continue learning
+throughout their lives.
+</p>
+
+<p>
+Learning a new skill can be difficult at first. For example, someone who
+has never used a computer may feel confused when they first start using
+different programs. A person who begins learning a foreign language may
+also feel frustrated because they cannot understand everything immediately.
+These difficulties are normal. The important thing is to continue
+practicing instead of giving up.
+</p>
+
+<p>
+There are many different ways to learn. Some people prefer traditional
+classes because they enjoy studying with teachers and classmates. Others
+prefer online courses because they can study whenever they have free
+time. Videos, podcasts, books and educational websites can also help
+students develop their skills. The best method often depends on the
+person and the skill they want to learn.
+</p>
+
+<p>
+Another important part of learning is practice. Reading about a skill is
+not always enough. People need to use the information in real situations.
+For example, a person learning English should not only memorize grammar
+rules. They should also speak with other people, write messages, listen
+to conversations and read different kinds of texts.
+</p>
+
+<p>
+Learning new skills can also increase confidence. When people realize
+that they can do something that was difficult before, they often become
+more willing to try other things. A small success can motivate someone
+to continue working toward a bigger goal.
+</p>
+
+<p>
+In conclusion, learning should not stop after school or university.
+Modern life requires people to adapt and develop. Whether someone wants
+to learn a language, use new technology, cook better or develop a
+professional skill, regular practice and patience can make a big
+difference.
+</p>
+
+</div>
+
+<h3>Questions</h3>
+
+<div class="question">1. Why is continuous learning important today?</div>
+<div class="question">2. Why can learning a new skill be difficult?</div>
+<div class="question">3. What are some ways people can learn?</div>
+<div class="question">4. Why is practice important?</div>
+<div class="question">5. Why should English learners speak with other people?</div>
+<div class="question">6. How can learning increase confidence?</div>
+<div class="question">7. What can motivate a person to continue learning?</div>
+<div class="question">8. Does learning stop after university?</div>
+<div class="question">9. What does modern life require people to do?</div>
+<div class="question">10. Give two examples of skills people can learn.</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>📚 Intermediate Vocabulary</h2>
+
+<div id="intermediateWords"></div>
+
+</div>
+
+<h2>📝 Intermediate Quiz</h2>
+<div id="intermediateQuiz"></div>
+
+</section>
+
+
+<!-- ADVANCED -->
+
+<section id="advanced">
+
+<h2>🔴 Advanced Level</h2>
+
+<div class="card">
+
+<h2>📖 Reading: Technology and the Future of Education</h2>
+
+<div class="reading-text">
+
+<p>
+Technology has transformed almost every aspect of modern society, and
+education is no exception. Over the last few decades, classrooms have
+changed considerably because of computers, smartphones, digital platforms
+and online resources. Students are no longer limited to information
+provided by a single textbook or teacher. Instead, they can access
+thousands of educational resources from almost anywhere in the world.
+</p>
+
+<p>
+One of the most significant developments has been the growth of online
+education. Students can now attend courses offered by universities and
+educational organizations located in different countries without leaving
+their homes. This has created opportunities for people who previously had
+limited access to higher education. Online learning can also be more
+flexible because students can organize their study schedules according to
+their personal responsibilities.
+</p>
+
+<p>
+Nevertheless, technology does not automatically improve education.
+Having access to information is not the same as understanding it. Students
+must learn how to evaluate information, recognize unreliable sources and
+distinguish facts from opinions. The enormous amount of information
+available online can sometimes create confusion rather than knowledge.
+Therefore, digital literacy has become an increasingly important skill.
+</p>
+
+<p>
+Another challenge is maintaining motivation. Traditional classrooms
+provide a physical environment where students regularly interact with
+teachers and classmates. Online learners may have greater freedom, but
+they can also become distracted or lose motivation if they do not have a
+clear study plan. Successful online learning therefore requires
+self-discipline, time management and consistent effort.
+</p>
+
+<p>
+Artificial intelligence is another technology that may significantly
+influence education in the coming years. AI systems can provide immediate
+feedback, generate exercises and help students practice languages or
+other subjects. However, students must still develop their own ability
+to think critically and solve problems. Technology should support learning
+rather than completely replace the intellectual effort of the learner.
+</p>
+
+<p>
+Ultimately, the future of education will probably involve a combination
+of traditional teaching and digital technology. Teachers will continue to
+play an important role because education is not simply the transfer of
+information. Teachers also motivate students, explain difficult concepts,
+provide feedback and help learners develop communication and critical
+thinking skills. Technology can make these processes more flexible and
+accessible, but human interaction will remain an important part of
+education.
+</p>
+
+</div>
+
+<h3>Questions</h3>
+
+<div class="question">1. How has technology changed education?</div>
+<div class="question">2. What opportunities has online education created?</div>
+<div class="question">3. Why is access to information not enough?</div>
+<div class="question">4. What is digital literacy?</div>
+<div class="question">5. What problem can online learners experience?</div>
+<div class="question">6. What skills are necessary for successful online learning?</div>
+<div class="question">7. How can artificial intelligence help students?</div>
+<div class="question">8. Why should technology not completely replace intellectual effort?</div>
+<div class="question">9. What role can teachers continue to play?</div>
+<div class="question">10. What combination may characterize the future of education?</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>📚 Advanced Vocabulary</h2>
+
+<div id="advancedWords"></div>
+
+</div>
+
+<h2>📝 Advanced Quiz</h2>
+<div id="advancedQuiz"></div>
+
+</section>
+
+
+<!-- READING -->
+
+<section id="reading">
+
+<h2>📖 Reading Practice</h2>
+
+<div class="card">
+<h2>Why Do People Travel?</h2>
+
+<div class="reading-text">
+
+<p>
+People travel for many different reasons. Some people travel because they
+want to relax and escape from their daily routines. Others travel because
+they want to discover new cultures, meet different people or experience
+places that they have only seen in photographs. Travel can therefore be
+both enjoyable and educational.
+</p>
+
+<p>
+When people visit another country, they often notice differences in food,
+language, traditions and lifestyles. These differences can help travelers
+understand that there are many ways of living in the world. A traveler
+may return home with new ideas and a different perspective on everyday
+life.
+</p>
+
+<p>
+Travel can also help people become more independent. When someone travels
+to an unfamiliar place, they may need to find transportation, communicate
+with local people, manage money and solve unexpected problems. These
+experiences can improve confidence and decision-making skills.
+</p>
+
+<p>
+However, responsible travel is important. Tourists should respect local
+communities, protect the environment and avoid unnecessary waste. They
+should also learn about local customs before visiting a new country.
+Responsible travelers can enjoy their journeys while reducing negative
+effects on the places they visit.
+</p>
+
+</div>
+
+<h3>Questions</h3>
+
+<div class="question">1. Why do some people travel?</div>
+<div class="question">2. What can travelers learn from other cultures?</div>
+<div class="question">3. How can travel increase independence?</div>
+<div class="question">4. What problems may travelers need to solve?</div>
+<div class="question">5. Why is responsible travel important?</div>
+
+</div>
+
+</section>
+
+
+<!-- WRITING -->
+
+<section id="writing">
+
+<h2>✍️ Writing Practice</h2>
+
+<div class="card">
+
+<h2>🟢 Beginner Writing</h2>
+
+<p>Write 80–100 words about yourself.</p>
+
+<p>
+You can talk about your name, age, family, hobbies, school, favorite
+food, favorite subject and future dreams.
+</p>
+
+<textarea placeholder="Start writing here..."></textarea>
+
+</div>
+
+
+<div class="card">
+
+<h2>🟡 Intermediate Writing</h2>
+
+<p>Write 120–150 words about this topic:</p>
+
+<p>
+<strong>
+"Do you think learning English is important for young people? Explain
+your opinion and give examples."
+</strong>
+</p>
+
+<textarea placeholder="Start writing here..."></textarea>
+
+</div>
+
+
+<div class="card">
+
+<h2>🔴 Advanced Writing</h2>
+
+<p>Write 180–220 words about this topic:</p>
+
+<p>
+<strong>
+"Technology has changed the way people learn. Discuss the advantages and
+disadvantages of using technology in education."
+</strong>
+</p>
+
+<textarea placeholder="Start writing here..."></textarea>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+<p>🌍 English World © 2026</p>
+<p>Learn English every day!</p>
+</footer>
+
+
+<script>
+
+function show(id){
+
+let sections=document.querySelectorAll("section");
+
+sections.forEach(function(section){
+    section.classList.remove("active");
+});
+
+document.getElementById(id).classList.add("active");
+
+window.scrollTo(0,0);
+
+}
+
+
+/* VOCABULARY */
+
+const vocabulary={
+
+beginner:[
+
+["Happy","Feeling good and pleased","xoşbəxt","I am happy today."],
+["Friend","A person you like and know well","dost","Anna is my best friend."],
+["House","A building where people live","ev","My house is near the school."],
+["School","A place where students learn","məktəb","I go to school every day."],
+["Beautiful","Very attractive or pleasant","gözəl","The garden is beautiful."],
+["Begin","To start doing something","başlamaq","The lesson begins at nine."],
+["Easy","Not difficult","asan","This exercise is easy."],
+["Important","Having great value or meaning","vacib","English is important for me."],
+["Family","Parents, children and other relatives","ailə","I have a big family."],
+["Food","Things that people eat","qida","My favorite food is pizza."],
+["Morning","The early part of the day","səhər","I study in the morning."],
+["Travel","To go from one place to another","səyahət etmək","I like to travel."],
+["Teacher","A person who teaches","müəllim","My teacher is very kind."],
+["Book","A set of written pages","kitab","I am reading a book."],
+["Happy","Feeling pleasure or joy","xoşbəxt","She looks happy."]
+],
+
+intermediate:[
+
+["Improve","To become better","inkişaf etdirmək","I want to improve my English."],
+["Opportunity","A good chance to do something","imkan","This job is a great opportunity."],
+["Confident","Feeling sure about yourself","özünəinamlı","She is confident when she speaks."],
+["Journey","A trip from one place to another","səyahət","The journey took five hours."],
+["Challenge","Something difficult that tests you","çətinlik","Learning a language is a challenge."],
+["Achieve","To successfully reach a goal","nail olmaq","She achieved her goal."],
+["Avoid","To stay away from something","qaçmaq","Try to avoid unnecessary problems."],
+["Develop","To grow or improve","inkişaf etdirmək","Reading develops vocabulary."],
+["Require","To need something","tələb etmək","This job requires experience."],
+["Environment","The natural world around us","ətraf mühit","We should protect the environment."],
+["Experience","Knowledge gained from doing something","təcrübə","Travel gives us experience."],
+["Decision","A choice made after thinking","qərar","It was a difficult decision."],
+["Successful","Achieving what you wanted","uğurlu","She became successful."],
+["Responsible","Having a duty to do something correctly","məsuliyyətli","Students should be responsible."],
+["Communication","The process of sharing information","ünsiyyət","Good communication is important."]
+],
+
+advanced:[
+
+["Significant","Important or noticeable","əhəmiyyətli","Technology has had a significant effect."],
+["Nevertheless","Despite what was just mentioned","buna baxmayaraq","It was difficult; nevertheless, we continued."],
+["Consequently","As a result","nəticədə","He studied hard; consequently, he passed."],
+["Inevitable","Certain to happen","qaçılmaz","Change is inevitable."],
+["Contemporary","Belonging to the present time","müasir","Contemporary society depends on technology."],
+["Perspective","A particular way of viewing something","baxış bucağı","Travel can change your perspective."],
+["Sustainable","Able to continue without causing serious harm","davamlı","We need sustainable solutions."],
+["Enhance","To improve something","təkmilləşdirmək","Technology can enhance education."],
+["Substantial","Large or important in amount","əhəmiyyətli","The project requires substantial investment."],
+["Reluctant","Not willing to do something","istəksiz","He was reluctant to change his plan."],
+["Evaluate","To carefully judge something","qiymətləndirmək","Students should evaluate information."],
+["Critical","Involving careful judgment","tənqidi","Critical thinking is important."],
+["Complex","Complicated and difficult to understand","mürəkkəb","This is a complex problem."],
+["Implement","To put a plan into action","həyata keçirmək","The school implemented a new system."],
+["Efficient","Working well without wasting time","səmərəli","The new system is more efficient."]
+]
+
+};
+
+
+function createWords(level,id){
+
+let box=document.getElementById(id);
+
+vocabulary[level].forEach(function(item){
+
+box.innerHTML+=`
+
+<div class="word">
+
+<h3>${item[0]}</h3>
+
+<p><strong>Definition:</strong> ${item[1]}</p>
+
+<p><strong>🇦🇿 Azərbaycan dilində:</strong> ${item[2]}</p>
+
+<p><strong>Example:</strong> ${item[3]}</p>
+
+<button class="speak" onclick="speak('${item[0]}')">
+🔊 Listen
+</button>
+
+</div>
+
+`;
+
+});
+
+}
+
+createWords("beginner","beginnerWords");
+createWords("intermediate","intermediateWords");
+createWords("advanced","advancedWords");
+
+
+/* SPEAK */
+
+function speak(text){
+
+let speech=new SpeechSynthesisUtterance(text);
+
+speech.lang="en-US";
+speech.rate=0.85;
+
+window.speechSynthesis.speak(speech);
+
+}
+
+</script>
+
+</body>
+</html>
